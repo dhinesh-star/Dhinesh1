@@ -1,0 +1,9 @@
+a=int(input("Enter the number of input to be given "))
+b=[]
+for i in range(a):
+    c=int(input("Enter the number "))
+    b.insert(i,c)
+for i in b:
+    if(i<0):
+        b.remove(i)
+print(b)
